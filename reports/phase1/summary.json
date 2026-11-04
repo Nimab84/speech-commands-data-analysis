@@ -1,0 +1,181 @@
+{
+  "n_files": 8000,
+  "n_valid": 8000,
+  "n_labels": 8,
+  "n_speakers": 1750,
+  "labels": [
+    "down",
+    "go",
+    "left",
+    "no",
+    "right",
+    "stop",
+    "up",
+    "yes"
+  ],
+  "sample_rates_hz": {
+    "16000": 8000
+  },
+  "channels": {
+    "1": 8000
+  },
+  "total_duration_minutes": 131.16033541666667,
+  "quality": {
+    "very_short": 0,
+    "low_energy": 374,
+    "exact_silence": 0,
+    "longer_than_one_s": 0,
+    "unexpected_format": 0,
+    "high_dc": 23,
+    "shorter_than_one_s": 822,
+    "corrupt_files": 0,
+    "saturated_files": 363,
+    "duplicate_groups": 27,
+    "duplicate_extra_records": 27,
+    "missing_speaker_id": 0,
+    "missing_label": 0,
+    "duplicate_label_conflict_groups": 0,
+    "duplicate_speaker_conflict_groups": 0
+  },
+  "splits": {
+    "train": {
+      "recordings": 6290,
+      "speakers": 1399
+    },
+    "validation": {
+      "recordings": 865,
+      "speakers": 177
+    },
+    "test": {
+      "recordings": 845,
+      "speakers": 174
+    }
+  },
+  "speaker_overlap_count": 0,
+  "cross_split_duplicate_groups": 0,
+  "background_noise_files": 0,
+  "provided_silence_or_unknown_labels": false,
+  "official_split_list_files": {
+    "validation_list.txt": false,
+    "testing_list.txt": false
+  },
+  "naive_row_split": {
+    "validation_seen_speaker_fraction": 0.95375,
+    "test_seen_speaker_fraction": 0.94875,
+    "validation_overlapping_ids": 559,
+    "test_overlapping_ids": 553
+  },
+  "baseline": {
+    "kind": "constant training-majority class; lexical tie-break",
+    "prediction": "stop",
+    "training_count": 798,
+    "validation_accuracy": 0.11098265895953757,
+    "validation_macro_f1": 0.024973985431841834,
+    "validation_balanced_accuracy": 0.125,
+    "test_scores_computed": false,
+    "uniform_random_expected_accuracy": 0.125
+  },
+  "speaker_recording_quantiles": {
+    "0.0": 1.0,
+    "0.25": 2.0,
+    "0.5": 3.0,
+    "0.75": 5.0,
+    "0.95": 16.0,
+    "1.0": 33.0
+  },
+  "speaker_label_counts": {
+    "1": 234,
+    "2": 437,
+    "3": 489,
+    "4": 293,
+    "5": 116,
+    "6": 37,
+    "7": 56,
+    "8": 88
+  },
+  "train_class_medians": {
+    "down": {
+      "duration_s": 1.0,
+      "rms_dbfs": -26.442665,
+      "peak_abs": 0.388428,
+      "zero_fraction": 0.006557,
+      "low_energy_frame_fraction": 0.44,
+      "dc_offset": -0.0,
+      "zero_crossing_rate": 0.103069
+    },
+    "go": {
+      "duration_s": 1.0,
+      "rms_dbfs": -26.123797,
+      "peak_abs": 0.378555,
+      "zero_fraction": 0.008938,
+      "low_energy_frame_fraction": 0.52,
+      "dc_offset": -0.0,
+      "zero_crossing_rate": 0.097747
+    },
+    "left": {
+      "duration_s": 1.0,
+      "rms_dbfs": -26.363002,
+      "peak_abs": 0.436188,
+      "zero_fraction": 0.006839,
+      "low_energy_frame_fraction": 0.48,
+      "dc_offset": -1e-06,
+      "zero_crossing_rate": 0.151134
+    },
+    "no": {
+      "duration_s": 1.0,
+      "rms_dbfs": -26.833204,
+      "peak_abs": 0.327545,
+      "zero_fraction": 0.009375,
+      "low_energy_frame_fraction": 0.5,
+      "dc_offset": -0.0,
+      "zero_crossing_rate": 0.093764
+    },
+    "right": {
+      "duration_s": 1.0,
+      "rms_dbfs": -26.467862,
+      "peak_abs": 0.412476,
+      "zero_fraction": 0.008812,
+      "low_energy_frame_fraction": 0.52,
+      "dc_offset": 0.0,
+      "zero_crossing_rate": 0.133383
+    },
+    "stop": {
+      "duration_s": 1.0,
+      "rms_dbfs": -26.3951,
+      "peak_abs": 0.441055,
+      "zero_fraction": 0.00817,
+      "low_energy_frame_fraction": 0.5,
+      "dc_offset": 0.0,
+      "zero_crossing_rate": 0.201263
+    },
+    "up": {
+      "duration_s": 1.0,
+      "rms_dbfs": -27.203353,
+      "peak_abs": 0.421829,
+      "zero_fraction": 0.009938,
+      "low_energy_frame_fraction": 0.66,
+      "dc_offset": -0.0,
+      "zero_crossing_rate": 0.118101
+    },
+    "yes": {
+      "duration_s": 1.0,
+      "rms_dbfs": -27.303311,
+      "peak_abs": 0.36972,
+      "zero_fraction": 0.008075,
+      "low_energy_frame_fraction": 0.44,
+      "dc_offset": -0.0,
+      "zero_crossing_rate": 0.236265
+    }
+  },
+  "thresholds": {
+    "short_seconds": 0.25,
+    "low_energy_dbfs": -45.0,
+    "frame_low_energy_dbfs": -50.0,
+    "frame_ms": 20,
+    "dc_offset_abs": 0.05
+  },
+  "eda_split": "train",
+  "seed": 42,
+  "dataset_sha256": "49650f2341b26d886b46b3f4fb8fed59e30300b17550f1ee4a768b3106cf93a0",
+  "config_sha256": "cb7d076cfff8bc8f9c33b5cb7fade6efde3b1e51c30391e6c4348f8099a86a2f"
+}

@@ -1,0 +1,11 @@
+.deps/
+.venv/
+__pycache__/
+*.pyc
+tmp/
+data/archives/
+data/raw/
+output/
+da_p.pdf
+reports/*.pdf
+!reports/phase1.pdf
