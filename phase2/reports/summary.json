@@ -1,0 +1,54 @@
+{
+  "author": "Nima Balotf",
+  "phase": 2,
+  "input_clips": 8000,
+  "retained_clips": 7973,
+  "removed_exact_copies": 27,
+  "split_counts": {
+    "train": 6266,
+    "validation": 864,
+    "test": 843
+  },
+  "speaker_counts": {
+    "test": 174,
+    "train": 1399,
+    "validation": 177
+  },
+  "feature_counts": {
+    "mfcc": 52,
+    "logmel": 80,
+    "domain": 10
+  },
+  "primary_features": 52,
+  "selected_k": 2,
+  "selection_rule": "Highest mean training silhouette over three seeds; ties prefer smaller k",
+  "silhouette_sample": 1200,
+  "primary_pca_components": 40,
+  "retained_variance": 0.9574005738289275,
+  "pc1_variance": 0.2025722433386498,
+  "pc2_variance": 0.051104509694917415,
+  "primary_silhouette_mean": 0.12186599079751897,
+  "seed_ari_mean": 0.9987234324564621,
+  "speaker_subsample_ari_mean": 0.958847748498193,
+  "augmentation_same_cluster_fraction": 0.9633333333333334,
+  "augmentation_ari": 0.8582235501717619,
+  "features_missing": 0,
+  "test_used_for_fit_or_selection": false,
+  "augmentation_used_in_fit": false,
+  "inventory_sha256": "b87aa59c19e35252f2ae92b8fdc11403d45b13925c9774a7052983dde24a7a3a",
+  "config_sha256": "36469880ca2906a381ea0138aca2e06d9a1c3ca96e4aa0990894fccfd2f920bc",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "cloudpickle": "3.1.2",
+    "narwhals": "2.28.0",
+    "threadpoolctl": "3.7.0",
+    "matplotlib": "3.11.2",
+    "reportlab": "4.4.9",
+    "Pillow": "13.0.0",
+    "pypdf": "6.10.0"
+  }
+}

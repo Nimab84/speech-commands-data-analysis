@@ -1,16 +1,23 @@
-# Speech Commands - Phase 1
+# Speech Commands - Data Analysis
 
 Nima Balotf
 
-Path D of the Data Analysis project: data quality and exploratory analysis of eight spoken English commands.
+Path D of the Data Analysis project: audio command recognition for unseen speakers.
 
-## Results
+## Completed phases
+
+- **Phase 1:** [data quality and exploratory analysis](reports/phase1.pdf), with source code and measurements in the root project folders.
+- **Phase 2:** [signal preparation, features, and unsupervised patterns](phase2/reports/phase2.pdf), with all Phase 2 work kept together in [`phase2/`](phase2/README.md).
+
+Phase 2 removes 27 exact copies, extracts 142 audio descriptors, and fits training-only PCA and k-means. Its selected two-cluster pattern is stable but has weak command agreement. See the Phase 2 report for the measured results and interpretations.
+
+## Phase 1 results
 
 The dataset contains **8,000 WAV files**, **8 command classes**, and **1,750 speaker IDs**. All files were readable. The audit found 822 clips shorter than one second, 374 low-energy clips, and 27 extra exact copies.
 
 The speaker-based split contains 6,290 training, 865 validation, and 845 test clips. Speaker IDs and exact audio copies are separate across these sets.
 
-## Files
+## Phase 1 files
 
 - `reports/phase1.pdf`: the official report, including interpretations for all 13 figures, screening-threshold rationale, and three direct references.
 - `AI_USAGE.md`: the AI assistance disclosure, included in the submission ZIP.
@@ -21,7 +28,7 @@ The speaker-based split contains 6,290 training, 865 validation, and 845 test cl
 - `data/README.md`: data source and measurement definitions.
 - `configs/phase1.json`: analysis settings.
 
-## Run
+## Reproduce Phase 1
 
 Use Python 3.12 and run these commands from the project folder:
 
@@ -35,6 +42,8 @@ python src/build_report.py
 The first data download is about 182 MB. Later runs reuse the downloaded archive. The report uses standard Helvetica fonts.
 
 The report builder writes `reports/phase1.pdf`, matching the course submission path. The submission package is `output/phase1_path_d.zip`; it contains that report, `AI_USAGE.md`, the code, figures, configuration, and measured tables.
+
+For Phase 2, follow [`phase2/README.md`](phase2/README.md). Its code, settings, data snapshots, figures, fitted objects, tables, and report are contained in that folder. Its separate delivery package is `phase2/output/phase2_path_d.zip`.
 
 ## Method
 

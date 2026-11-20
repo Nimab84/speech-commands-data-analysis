@@ -1,0 +1,7 @@
+experiment,seed,training_speakers,training_clips,anchor_ari
+80% speaker subsample; refit scaler/PCA/k-means,100,1119,4959,0.9551499907361289
+80% speaker subsample; refit scaler/PCA/k-means,101,1119,5016,0.9473421404158341
+80% speaker subsample; refit scaler/PCA/k-means,102,1119,4957,0.9525438130018651
+80% speaker subsample; refit scaler/PCA/k-means,103,1119,5038,0.9551499907361289
+80% speaker subsample; refit scaler/PCA/k-means,104,1119,5042,0.9840528076010079
+RobustScaler instead of StandardScaler,42,1399,6266,0.8146820767873454

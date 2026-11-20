@@ -1,0 +1,143 @@
+feature,family,definition,rationale,used_in_primary_clustering
+mfcc_00_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_01_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_02_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_03_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_04_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_05_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_06_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_07_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_08_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_09_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_10_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_11_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_12_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_00_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_01_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_02_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_03_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_04_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_05_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_06_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_07_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_08_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_09_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_10_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_11_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_12_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_00_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_01_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_02_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_03_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_04_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_05_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_06_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_07_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_08_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_09_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_10_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_11_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_12_delta_mean,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_00_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_01_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_02_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_03_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_04_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_05_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_06_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_07_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_08_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_09_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_10_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_11_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+mfcc_12_delta_std,mfcc,MFCC coefficient time mean/std or five-frame regression-delta mean/std; coefficients 0-12,"Spectral envelope and its temporal change, without using the command label",True
+logmel_00_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_01_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_02_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_03_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_04_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_05_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_06_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_07_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_08_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_09_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_10_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_11_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_12_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_13_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_14_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_15_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_16_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_17_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_18_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_19_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_20_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_21_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_22_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_23_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_24_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_25_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_26_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_27_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_28_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_29_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_30_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_31_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_32_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_33_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_34_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_35_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_36_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_37_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_38_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_39_mean,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_00_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_01_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_02_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_03_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_04_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_05_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_06_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_07_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_08_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_09_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_10_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_11_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_12_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_13_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_14_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_15_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_16_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_17_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_18_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_19_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_20_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_21_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_22_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_23_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_24_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_25_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_26_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_27_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_28_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_29_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_30_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_31_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_32_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_33_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_34_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_35_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_36_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_37_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_38_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+logmel_39_std,logmel,"Time mean or population std of a 40-band HTK mel log-power representation, in dB","Frequency-local energy and temporal variation, as an alternative representation",False
+duration_s,domain,"Original unpadded duration, seconds",Length and padding requirements,False
+rms_dbfs,domain,Whole prepared clip RMS in dBFS,"Recording level, including padding effect",False
+peak_abs,domain,Maximum absolute prepared amplitude,Amplitude extremes,False
+quiet_fraction,domain,Fraction of overlapping 25 ms frames below -50 dBFS,Low-amplitude occupancy; not SNR or voice activity,False
+zero_crossing_rate,domain,Fraction of adjacent prepared samples with different signs,Time-domain oscillation and high-frequency variation,False
+centroid_hz,domain,"Mean power-weighted spectral centroid after pre-emphasis, Hz",Spectral location,False
+bandwidth_hz,domain,"Mean power-weighted spectral standard deviation, Hz",Spectral spread,False
+rolloff85_hz,domain,Mean frequency below which 85% of spectral power lies,High-frequency energy extent,False
+spectral_flatness,domain,Mean geometric/arithmetic power ratio; silent frames set to zero,Tonal versus broad-band spectral shape,False
+spectral_flux,domain,Mean RMS difference of adjacent unit-sum power spectra,Time variation of spectral shape,False

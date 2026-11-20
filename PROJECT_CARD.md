@@ -28,7 +28,7 @@ Short English command recordings under conditions similar to the dataset, from u
 2. How do duration, energy, and the proportion of quiet frames vary across commands?
 3. Do clusters of spectral features reflect command, speaker, or recording energy?
 
-The first question connects the data audit to later feature extraction, model comparison, and error analysis. The second is explored in Phase 1; the third is planned for Phase 2.
+The first question connects the data audit to feature extraction, later model comparison, and error analysis. The second is explored in Phase 1; the third is investigated in Phase 2 through training-only audio-feature clustering.
 
 ## 7. Target
 
@@ -52,7 +52,7 @@ Keep all recordings and augmentations from each speaker in one partition. Fit sc
 
 ## 12. Unsupervised analysis
 
-Apply PCA and k-means to training MFCC summaries. Compare cluster quality and stability across several seeds, then examine relationships with command, speaker ID, and energy.
+Phase 2 applies PCA and k-means to 52 training MFCC summaries, after exact-copy removal. Forty components retain 95.74% of standardized variance. A label-free search over k=2..12 selects k=2 with mean silhouette 0.122. Initialization and speaker-subset stability are high, while command AMI is only 0.015; the groups mainly describe broad acoustic variation. Robust scaling, log-mel summaries, and a coefficient-0 ablation are documented diagnostics. The full implementation and report are in `phase2/`.
 
 ## 13. Audio experiments
 
